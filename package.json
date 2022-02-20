@@ -2,7 +2,15 @@
   "name": "discord-utils",
   "version": "0.1.0",
   "description": "Utilities for discord-interactions",
-  "main": "index.js",
+  "main": "discordUtils.js",
+  "types": "discordUtils.d.ts",
+  "files": [
+    "lib/",
+    "discordUtils.d.ts"
+  ],
+  "engines": {
+    "node": "^12.9 || 14 || 16"
+  },
   "scripts": {
     "test": "npm run lint && npm run types && metatests test/",
     "types": "tsc -p tsconfig.json",

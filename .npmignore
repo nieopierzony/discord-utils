@@ -1,0 +1,6 @@
+node_modules
+README.md
+.editorconfig
+.eslintrc.json
+.prettierrc
+tsconfig.json
